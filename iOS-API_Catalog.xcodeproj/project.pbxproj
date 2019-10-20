@@ -285,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WF5Y5M59G;
 				INFOPLIST_FILE = "iOS-API_Catalog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WF5Y5M59G;
 				INFOPLIST_FILE = "iOS-API_Catalog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
