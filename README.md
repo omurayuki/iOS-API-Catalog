@@ -35,6 +35,7 @@
 > https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5
 
 > ライブラリ:  
+> https://github.com/treastrain/TRETJapanNFCReader/graphs/contributors
 
 ## Semantic Segmentation Matte
 
