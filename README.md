@@ -1,14 +1,18 @@
 # iOS-API-Catalog
 
-### _※2019年10月20日時点(定期更新中)_
+### _※iOS13(定期更新中)_
 
 ## 文字認識
+
+> UseCase  
 
 > 参考資料:  
 
 > ライブラリ:  
 
 ## ドキュメントスキャン
+
+> UseCase  
 
 > 参考資料:  
 
@@ -17,11 +21,15 @@
 
 ## BackgroundTask
 
+> UseCase  
+
 > 参考資料:  
 
 > ライブラリ:  
 
 ## Core NFC
+
+> UseCase  
 
 > 参考資料:  
 > https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5
@@ -30,11 +38,15 @@
 
 ## Semantic Segmentation Matte
 
+> UseCase  
+
 > 参考資料:  
 
 > ライブラリ:  
 
 ## Core haptic
+
+> UseCase  
 
 > 参考資料:  
 
@@ -42,11 +54,15 @@
 
 ## Indoor Maps
 
+> UseCase  
+
 > 参考資料:  
 
 > ライブラリ:  
 
 ## Create ML
+
+> UseCase  
 
 > 参考資料:  
 
@@ -54,17 +70,23 @@
 
 ## Sound Analysis
 
+> UseCase  
+
 > 参考資料:  
 
 > ライブラリ:  
 
 ## デプス推定
 
+> UseCase  
+
 > 参考資料:  
 
 > ライブラリ:  
 
 ## 物体のセグメント
+
+> UseCase  
 
 > 参考資料:  
 
