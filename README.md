@@ -43,9 +43,9 @@
 ・人物の矩形を背景から切り抜き  
 ・人物の矩形と背景の深度測定  
 ・AR表現における回り込み  
-  
- ※現状静止画のみ  
- ※人物のみ  
+>  
+> ※現状静止画のみ  
+> ※人物のみ  
 
 > 技術資料:  
 [iOS 12のPortrait Matteがすごい／ #iOSDC 2018で登壇します](http://shu223.hatenablog.com/entry/2018/08/22/200226)  
@@ -56,9 +56,9 @@
 
 > 概要:  
 ・人物の"髪", "肌", "歯"をセグメンテーションする  
-  
- ※現状静止画のみ  
- ※人物のみ  
+>  
+> ※現状静止画のみ  
+> ※人物のみ  
 
 > 技術資料:  
 [Multi-cam support in iOS 13 allows simultaneous video, photo, and audio capture](https://9to5mac.com/2019/06/07/multi-cam-support-ios13/)  
