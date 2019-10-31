@@ -13,6 +13,22 @@
 		C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4E43235C080000E3D0FE /* AppDelegate.swift */; };
 		C99C4E4D235C080100E3D0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4C235C080100E3D0FE /* Assets.xcassets */; };
 		C99C4E50235C080100E3D0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4E235C080100E3D0FE /* LaunchScreen.storyboard */; };
+		C9A481A223696E03002EB9E6 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481A123696E03002EB9E6 /* Tag.swift */; };
+		C9A481A423697109002EB9E6 /* FeliCaTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481A323697109002EB9E6 /* FeliCaTag.swift */; };
+		C9A481A623697144002EB9E6 /* FeliCaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481A523697144002EB9E6 /* FeliCaService.swift */; };
+		C9A481A82369719F002EB9E6 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481A72369719F002EB9E6 /* Block.swift */; };
+		C9A481AA2369765F002EB9E6 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481A92369765F002EB9E6 /* Error+Extension.swift */; };
+		C9A481AC236994A6002EB9E6 /* FeliCa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481AB236994A6002EB9E6 /* FeliCa.swift */; };
+		C9A481AE23699527002EB9E6 /* Edy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481AD23699527002EB9E6 /* Edy.swift */; };
+		C9A481B023699535002EB9E6 /* Edy+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481AF23699535002EB9E6 /* Edy+History.swift */; };
+		C9A481B22369989D002EB9E6 /* Suica.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481B12369989D002EB9E6 /* Suica.swift */; };
+		C9A481B4236998E2002EB9E6 /* Suica+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481B3236998E2002EB9E6 /* Suica+History.swift */; };
+		C9A481B623699A04002EB9E6 /* Waon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481B523699A03002EB9E6 /* Waon.swift */; };
+		C9A481B823699A1F002EB9E6 /* Waon+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481B723699A1E002EB9E6 /* Waon+History.swift */; };
+		C9A481BA23699A58002EB9E6 /* Nanaco.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481B923699A58002EB9E6 /* Nanaco.swift */; };
+		C9A481BC23699A74002EB9E6 /* Nanaco+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BB23699A74002EB9E6 /* Nanaco+History.swift */; };
+		C9A481BE23699B90002EB9E6 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BD23699B90002EB9E6 /* Reader.swift */; };
+		C9A481C023699B9D002EB9E6 /* ReaderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */; };
 		C9F520912367EE4D0077CB87 /* CoreNFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F520902367EE4D0077CB87 /* CoreNFCViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +42,22 @@
 		C99C4E4C235C080100E3D0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99C4E4F235C080100E3D0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C99C4E51235C080200E3D0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A481A123696E03002EB9E6 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		C9A481A323697109002EB9E6 /* FeliCaTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeliCaTag.swift; sourceTree = "<group>"; };
+		C9A481A523697144002EB9E6 /* FeliCaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeliCaService.swift; sourceTree = "<group>"; };
+		C9A481A72369719F002EB9E6 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		C9A481A92369765F002EB9E6 /* Error+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
+		C9A481AB236994A6002EB9E6 /* FeliCa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeliCa.swift; sourceTree = "<group>"; };
+		C9A481AD23699527002EB9E6 /* Edy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edy.swift; sourceTree = "<group>"; };
+		C9A481AF23699535002EB9E6 /* Edy+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edy+History.swift"; sourceTree = "<group>"; };
+		C9A481B12369989D002EB9E6 /* Suica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suica.swift; sourceTree = "<group>"; };
+		C9A481B3236998E2002EB9E6 /* Suica+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Suica+History.swift"; sourceTree = "<group>"; };
+		C9A481B523699A03002EB9E6 /* Waon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waon.swift; sourceTree = "<group>"; };
+		C9A481B723699A1E002EB9E6 /* Waon+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Waon+History.swift"; sourceTree = "<group>"; };
+		C9A481B923699A58002EB9E6 /* Nanaco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nanaco.swift; sourceTree = "<group>"; };
+		C9A481BB23699A74002EB9E6 /* Nanaco+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nanaco+History.swift"; sourceTree = "<group>"; };
+		C9A481BD23699B90002EB9E6 /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
+		C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderConfiguration.swift; sourceTree = "<group>"; };
 		C9F5208F2367ED560077CB87 /* iOS-API_Catalog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-API_Catalog.entitlements"; sourceTree = "<group>"; };
 		C9F520902367EE4D0077CB87 /* CoreNFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCViewController.swift; sourceTree = "<group>"; };
 		F75A93AEFFEB62185445F908 /* Pods-iOS-API_Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-API_Catalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-API_Catalog/Pods-iOS-API_Catalog.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +124,7 @@
 				C9F5208F2367ED560077CB87 /* iOS-API_Catalog.entitlements */,
 				C99C4E43235C080000E3D0FE /* AppDelegate.swift */,
 				C97B84C82360766F00BC3E0F /* NSLayout+Extension.swift */,
+				C9A48196236968D3002EB9E6 /* NFCSource */,
 				C97B84C523606C6700BC3E0F /* VisionKit */,
 				C9F5208E2367E7D70077CB87 /* CoreNFC */,
 				C99C4E4C235C080100E3D0FE /* Assets.xcassets */,
@@ -99,6 +132,93 @@
 				C99C4E51235C080200E3D0FE /* Info.plist */,
 			);
 			path = "iOS-API_Catalog";
+			sourceTree = "<group>";
+		};
+		C9A48196236968D3002EB9E6 /* NFCSource */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481992369699C002EB9E6 /* Tags */,
+				C9A4819823696996002EB9E6 /* NFCReader */,
+				C9A481A0236969E0002EB9E6 /* Extension */,
+				C9A481A123696E03002EB9E6 /* Tag.swift */,
+				C9A481A72369719F002EB9E6 /* Block.swift */,
+				C9A481BD23699B90002EB9E6 /* Reader.swift */,
+				C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */,
+			);
+			path = NFCSource;
+			sourceTree = "<group>";
+		};
+		C9A4819823696996002EB9E6 /* NFCReader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NFCReader;
+			sourceTree = "<group>";
+		};
+		C9A481992369699C002EB9E6 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				C9A4819A236969A4002EB9E6 /* FeliCa */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		C9A4819A236969A4002EB9E6 /* FeliCa */ = {
+			isa = PBXGroup;
+			children = (
+				C9A4819E236969C8002EB9E6 /* Nanaco */,
+				C9A4819D236969C2002EB9E6 /* Waon */,
+				C9A4819C236969AF002EB9E6 /* Suica */,
+				C9A4819B236969AB002EB9E6 /* Edy */,
+				C9A481A323697109002EB9E6 /* FeliCaTag.swift */,
+				C9A481A523697144002EB9E6 /* FeliCaService.swift */,
+				C9A481AB236994A6002EB9E6 /* FeliCa.swift */,
+			);
+			path = FeliCa;
+			sourceTree = "<group>";
+		};
+		C9A4819B236969AB002EB9E6 /* Edy */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481AD23699527002EB9E6 /* Edy.swift */,
+				C9A481AF23699535002EB9E6 /* Edy+History.swift */,
+			);
+			path = Edy;
+			sourceTree = "<group>";
+		};
+		C9A4819C236969AF002EB9E6 /* Suica */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481B12369989D002EB9E6 /* Suica.swift */,
+				C9A481B3236998E2002EB9E6 /* Suica+History.swift */,
+			);
+			path = Suica;
+			sourceTree = "<group>";
+		};
+		C9A4819D236969C2002EB9E6 /* Waon */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481B523699A03002EB9E6 /* Waon.swift */,
+				C9A481B723699A1E002EB9E6 /* Waon+History.swift */,
+			);
+			path = Waon;
+			sourceTree = "<group>";
+		};
+		C9A4819E236969C8002EB9E6 /* Nanaco */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481B923699A58002EB9E6 /* Nanaco.swift */,
+				C9A481BB23699A74002EB9E6 /* Nanaco+History.swift */,
+			);
+			path = Nanaco;
+			sourceTree = "<group>";
+		};
+		C9A481A0236969E0002EB9E6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481A92369765F002EB9E6 /* Error+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		C9F5208E2367E7D70077CB87 /* CoreNFC */ = {
@@ -228,10 +348,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A481BC23699A74002EB9E6 /* Nanaco+History.swift in Sources */,
+				C9A481B4236998E2002EB9E6 /* Suica+History.swift in Sources */,
 				C97B84C723606CDC00BC3E0F /* DocumentScanViewController.swift in Sources */,
+				C9A481AC236994A6002EB9E6 /* FeliCa.swift in Sources */,
+				C9A481A82369719F002EB9E6 /* Block.swift in Sources */,
+				C9A481BE23699B90002EB9E6 /* Reader.swift in Sources */,
+				C9A481B22369989D002EB9E6 /* Suica.swift in Sources */,
+				C9A481B023699535002EB9E6 /* Edy+History.swift in Sources */,
 				C9F520912367EE4D0077CB87 /* CoreNFCViewController.swift in Sources */,
+				C9A481B623699A04002EB9E6 /* Waon.swift in Sources */,
+				C9A481A423697109002EB9E6 /* FeliCaTag.swift in Sources */,
+				C9A481AA2369765F002EB9E6 /* Error+Extension.swift in Sources */,
+				C9A481A223696E03002EB9E6 /* Tag.swift in Sources */,
+				C9A481AE23699527002EB9E6 /* Edy.swift in Sources */,
 				C97B84C92360766F00BC3E0F /* NSLayout+Extension.swift in Sources */,
+				C9A481A623697144002EB9E6 /* FeliCaService.swift in Sources */,
+				C9A481BA23699A58002EB9E6 /* Nanaco.swift in Sources */,
 				C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */,
+				C9A481B823699A1F002EB9E6 /* Waon+History.swift in Sources */,
+				C9A481C023699B9D002EB9E6 /* ReaderConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
