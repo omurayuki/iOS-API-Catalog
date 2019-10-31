@@ -37,7 +37,7 @@
 > ライブラリ:  
 > https://github.com/treastrain/TRETJapanNFCReader/graphs/contributors
 
-## Semantic Segmentation Matte
+## Portrait Effects Matte / Semantic Segmentation Matte
 
 > UseCase  
 
