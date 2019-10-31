@@ -29,6 +29,14 @@
 		C9A481BC23699A74002EB9E6 /* Nanaco+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BB23699A74002EB9E6 /* Nanaco+History.swift */; };
 		C9A481BE23699B90002EB9E6 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BD23699B90002EB9E6 /* Reader.swift */; };
 		C9A481C023699B9D002EB9E6 /* ReaderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */; };
+		C9A481C3236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481C2236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift */; };
+		C9A481C6236AA28E002EB9E6 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481C5236AA28E002EB9E6 /* ImageService.swift */; };
+		C9A481C9236ACFB5002EB9E6 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */; };
+		C9A481CC236AD30F002EB9E6 /* UIImage+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481CB236AD30F002EB9E6 /* UIImage+Util.swift */; };
+		C9A481CE236AD36E002EB9E6 /* CGImageSource+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481CD236AD36E002EB9E6 /* CGImageSource+Extension.swift */; };
+		C9A481D0236AD398002EB9E6 /* DepthData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481CF236AD398002EB9E6 /* DepthData+Extension.swift */; };
+		C9A481D2236AD408002EB9E6 /* PHAsset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481D1236AD408002EB9E6 /* PHAsset+Extension.swift */; };
+		C9A481D4236ADD4C002EB9E6 /* image-with-matte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9A481D3236ADD4C002EB9E6 /* image-with-matte.jpg */; };
 		C9F520912367EE4D0077CB87 /* CoreNFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F520902367EE4D0077CB87 /* CoreNFCViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +66,14 @@
 		C9A481BB23699A74002EB9E6 /* Nanaco+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nanaco+History.swift"; sourceTree = "<group>"; };
 		C9A481BD23699B90002EB9E6 /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
 		C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderConfiguration.swift; sourceTree = "<group>"; };
+		C9A481C2236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticSegmentationMattesViewController.swift; sourceTree = "<group>"; };
+		C9A481C5236AA28E002EB9E6 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
+		C9A481CB236AD30F002EB9E6 /* UIImage+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Util.swift"; sourceTree = "<group>"; };
+		C9A481CD236AD36E002EB9E6 /* CGImageSource+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImageSource+Extension.swift"; sourceTree = "<group>"; };
+		C9A481CF236AD398002EB9E6 /* DepthData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DepthData+Extension.swift"; sourceTree = "<group>"; };
+		C9A481D1236AD408002EB9E6 /* PHAsset+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHAsset+Extension.swift"; sourceTree = "<group>"; };
+		C9A481D3236ADD4C002EB9E6 /* image-with-matte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "image-with-matte.jpg"; path = "../../../../iOS-Depth-Sampler/iOS-Depth-Sampler/Resources/image-with-matte.jpg"; sourceTree = "<group>"; };
 		C9F5208F2367ED560077CB87 /* iOS-API_Catalog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-API_Catalog.entitlements"; sourceTree = "<group>"; };
 		C9F520902367EE4D0077CB87 /* CoreNFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCViewController.swift; sourceTree = "<group>"; };
 		F75A93AEFFEB62185445F908 /* Pods-iOS-API_Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-API_Catalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-API_Catalog/Pods-iOS-API_Catalog.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,8 +139,9 @@
 			children = (
 				C9F5208F2367ED560077CB87 /* iOS-API_Catalog.entitlements */,
 				C99C4E43235C080000E3D0FE /* AppDelegate.swift */,
-				C97B84C82360766F00BC3E0F /* NSLayout+Extension.swift */,
-				C9A48196236968D3002EB9E6 /* NFCSource */,
+				C9A481C7236ACFA5002EB9E6 /* Resource */,
+				C9A481C4236AA27D002EB9E6 /* Util */,
+				C9A481C1236A927F002EB9E6 /* SemanticSegmentationMattes */,
 				C97B84C523606C6700BC3E0F /* VisionKit */,
 				C9F5208E2367E7D70077CB87 /* CoreNFC */,
 				C99C4E4C235C080100E3D0FE /* Assets.xcassets */,
@@ -221,6 +238,37 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		C9A481C1236A927F002EB9E6 /* SemanticSegmentationMattes */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481C2236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift */,
+			);
+			path = SemanticSegmentationMattes;
+			sourceTree = "<group>";
+		};
+		C9A481C4236AA27D002EB9E6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C9A48196236968D3002EB9E6 /* NFCSource */,
+				C97B84C82360766F00BC3E0F /* NSLayout+Extension.swift */,
+				C9A481C5236AA28E002EB9E6 /* ImageService.swift */,
+				C9A481CB236AD30F002EB9E6 /* UIImage+Util.swift */,
+				C9A481CD236AD36E002EB9E6 /* CGImageSource+Extension.swift */,
+				C9A481CF236AD398002EB9E6 /* DepthData+Extension.swift */,
+				C9A481D1236AD408002EB9E6 /* PHAsset+Extension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C9A481C7236ACFA5002EB9E6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */,
+				C9A481D3236ADD4C002EB9E6 /* image-with-matte.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		C9F5208E2367E7D70077CB87 /* CoreNFC */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +339,8 @@
 			files = (
 				C99C4E50235C080100E3D0FE /* LaunchScreen.storyboard in Resources */,
 				C99C4E4D235C080100E3D0FE /* Assets.xcassets in Resources */,
+				C9A481C9236ACFB5002EB9E6 /* image-with-depth.jpg in Resources */,
+				C9A481D4236ADD4C002EB9E6 /* image-with-matte.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,16 +408,22 @@
 				C9A481B023699535002EB9E6 /* Edy+History.swift in Sources */,
 				C9F520912367EE4D0077CB87 /* CoreNFCViewController.swift in Sources */,
 				C9A481B623699A04002EB9E6 /* Waon.swift in Sources */,
+				C9A481CC236AD30F002EB9E6 /* UIImage+Util.swift in Sources */,
 				C9A481A423697109002EB9E6 /* FeliCaTag.swift in Sources */,
 				C9A481AA2369765F002EB9E6 /* Error+Extension.swift in Sources */,
 				C9A481A223696E03002EB9E6 /* Tag.swift in Sources */,
+				C9A481CE236AD36E002EB9E6 /* CGImageSource+Extension.swift in Sources */,
 				C9A481AE23699527002EB9E6 /* Edy.swift in Sources */,
 				C97B84C92360766F00BC3E0F /* NSLayout+Extension.swift in Sources */,
 				C9A481A623697144002EB9E6 /* FeliCaService.swift in Sources */,
+				C9A481C3236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift in Sources */,
 				C9A481BA23699A58002EB9E6 /* Nanaco.swift in Sources */,
+				C9A481D2236AD408002EB9E6 /* PHAsset+Extension.swift in Sources */,
 				C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */,
+				C9A481C6236AA28E002EB9E6 /* ImageService.swift in Sources */,
 				C9A481B823699A1F002EB9E6 /* Waon+History.swift in Sources */,
 				C9A481C023699B9D002EB9E6 /* ReaderConfiguration.swift in Sources */,
+				C9A481D0236AD398002EB9E6 /* DepthData+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
