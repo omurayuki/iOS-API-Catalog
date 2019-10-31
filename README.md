@@ -37,13 +37,26 @@
 > ライブラリ:  
 > https://github.com/treastrain/TRETJapanNFCReader/graphs/contributors
 
-## Portrait Effects Matte / Semantic Segmentation Matte
+## Portrait Effects Matte
 
 > UseCase  
 
 > 技術資料:  
 
 > ライブラリ:  
+
+## Semantic Segmentation Matte
+
+> UseCase  
+
+> 技術資料:  
+
+> ライブラリ:  
+
+> 補足:  
+Portrait Effects Matteと同様の方法でImageDataを操作するが、用意されているメソッドでは今の所実装出来なかった(動かなかった)。 
+Semantic Segmentation Matteの実装資料も見当たらない。 
+またApple公式でもSemantic Segmentation Matteの実装について言及している資料が見当たらない。
 
 ## Core Haptic
 
