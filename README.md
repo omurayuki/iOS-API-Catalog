@@ -4,7 +4,7 @@
 
 ## 文字認識
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -12,7 +12,7 @@
 
 ## ドキュメントスキャン
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -21,7 +21,7 @@
 
 ## BackgroundTask
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -29,7 +29,7 @@
 
 ## Core NFC
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 > https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5
@@ -39,7 +39,7 @@
 
 ## Portrait Effects Matte
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -47,7 +47,7 @@
 
 ## Semantic Segmentation Matte
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -60,7 +60,7 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 ## Core Haptic
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -68,7 +68,7 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 ## Indoor Maps
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -76,7 +76,7 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 ## Create ML
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -84,7 +84,7 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 ## Sound Analysis
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -92,7 +92,7 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 ## デプス推定
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
@@ -100,7 +100,7 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 ## 物体のセグメント
 
-> UseCase  
+> 概要 
 
 > 技術資料:  
 
