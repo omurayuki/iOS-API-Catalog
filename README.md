@@ -45,7 +45,7 @@
 
 > ライブラリ:  
 
-## Core haptic
+## Core Haptic
 
 > UseCase  
 
