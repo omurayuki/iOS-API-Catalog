@@ -13,8 +13,8 @@ GIFはAUTO*480 EZGIFサイト
 > 概要:  
 ・文字の領域を識別  
 ・文字認識  
-  
-※英数字の識別しか現状できない
+>  
+>※英数字の識別しか現状できない
 
 > 技術資料:  
 [How to use VNRecognizeTextRequest’s optical character recognition to detect text in an image](https://www.hackingwithswift.com/example-code/vision/how-to-use-vnrecognizetextrequests-optical-character-recognition-to-detect-text-in-an-image)
