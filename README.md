@@ -4,6 +4,8 @@
 
 ※基本的な動作確認方法など
 
+GIFはAUTO*480 EZGIFサイト
+
 ## 文字認識(Text Recognition)
 
 > 概要 
