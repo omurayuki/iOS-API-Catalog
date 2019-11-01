@@ -13,6 +13,9 @@
 > ライブラリ:  
 
 ## VisionKit
+
+![VisionKi](https://user-images.githubusercontent.com/46431586/68004615-83addb00-fcb5-11e9-9467-da82dfd872f0.gif)
+
 > 概要:  
 ・iOS13からNotesアプリに搭載されるOCRの機能を提供(文字認識)  
 ・ドキュメントスキャン  
