@@ -52,11 +52,12 @@
 > ※※ FeliCa Plug, FeliCa Linkその他など
 
 > 技術資料:  
-> [iPhoneでFeliCaを読み取ってみた](https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5)
+> [iPhoneでFeliCaを読み取ってみた](https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5)  
 > [iOS13 CoreNFCの使いみちとQRコード、BLEとの比較](https://qiita.com/gpsnmeajp/items/88e61086902a8a9bdaa4)
 
 > ライブラリ:  
-> [TRETJapanNFCReader](https://github.com/treastrain/TRETJapanNFCReader)
+> [TRETJapanNFCReader](https://github.com/treastrain/TRETJapanNFCReader)  
+
 ## Portrait Effects Matte
 
 > 概要:  
