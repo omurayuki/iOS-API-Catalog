@@ -29,14 +29,25 @@
 
 ## Core NFC
 
-> 概要 
+> 概要:  
+> ・NFCタグ直接読み取り/書き込み(システムコード指定、暗号化通信可)  
+> ・カード固有IDの読み出し  
+> ・高機能/複雑な構造を持ったカード・タグの取り扱い  
+> ・交通系電子マネーの履歴読み取り  
+> ・会員カードの読み取り  
+> ・NDEFタグの作成・書き換え  
+> ・フィットネス機器などとの双方向の通信  
+> ・各種機器の設定  
+> ・各種機器のそれなりの容量のデータの読み取り
+>   
+> ※※ FeliCa Plug, FeliCa Linkその他など
 
 > 技術資料:  
-> https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5
+> [iPhoneでFeliCaを読み取ってみた](https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5)
+> [iOS13 CoreNFCの使いみちとQRコード、BLEとの比較](https://qiita.com/gpsnmeajp/items/88e61086902a8a9bdaa4)
 
 > ライブラリ:  
-> https://github.com/treastrain/TRETJapanNFCReader/graphs/contributors
-
+> [TRETJapanNFCReader](https://github.com/treastrain/TRETJapanNFCReader)
 ## Portrait Effects Matte
 
 > 概要:  
