@@ -1,11 +1,3 @@
-//
-//  PhotosUtils.swift
-//  iOS-Depth-Sampler
-//
-//  Created by Shuichi Tsutsumi on 2018/09/12.
-//  Copyright © 2018 Shuichi Tsutsumi. All rights reserved.
-//
-
 import Photos
 import UIKit
 
