@@ -11,6 +11,9 @@
 		C97B84C723606CDC00BC3E0F /* DocumentScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B84C623606CDC00BC3E0F /* DocumentScanViewController.swift */; };
 		C97B84C92360766F00BC3E0F /* NSLayout+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B84C82360766F00BC3E0F /* NSLayout+Extension.swift */; };
 		C99B83AF236C256F009405F5 /* MattesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83AE236C256F009405F5 /* MattesViewController.swift */; };
+		C99B83B2236C2656009405F5 /* TextRecongnitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83B1236C2656009405F5 /* TextRecongnitionViewController.swift */; };
+		C99B83B4236C2B6C009405F5 /* BoundingBoxImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83B3236C2B6C009405F5 /* BoundingBoxImageView.swift */; };
+		C99B83B6236C2BAD009405F5 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83B5236C2BAD009405F5 /* UIImageView+Extension.swift */; };
 		C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4E43235C080000E3D0FE /* AppDelegate.swift */; };
 		C99C4E4D235C080100E3D0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4C235C080100E3D0FE /* Assets.xcassets */; };
 		C99C4E50235C080100E3D0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4E235C080100E3D0FE /* LaunchScreen.storyboard */; };
@@ -45,6 +48,9 @@
 		C97B84C623606CDC00BC3E0F /* DocumentScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScanViewController.swift; sourceTree = "<group>"; };
 		C97B84C82360766F00BC3E0F /* NSLayout+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayout+Extension.swift"; sourceTree = "<group>"; };
 		C99B83AE236C256F009405F5 /* MattesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattesViewController.swift; sourceTree = "<group>"; };
+		C99B83B1236C2656009405F5 /* TextRecongnitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecongnitionViewController.swift; sourceTree = "<group>"; };
+		C99B83B3236C2B6C009405F5 /* BoundingBoxImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxImageView.swift; sourceTree = "<group>"; };
+		C99B83B5236C2BAD009405F5 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		C99C4E40235C080000E3D0FE /* iOS-API_Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-API_Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99C4E43235C080000E3D0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99C4E4C235C080100E3D0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +120,14 @@
 			path = VisionKit;
 			sourceTree = "<group>";
 		};
+		C99B83B0236C263C009405F5 /* TextRecongnition */ = {
+			isa = PBXGroup;
+			children = (
+				C99B83B1236C2656009405F5 /* TextRecongnitionViewController.swift */,
+			);
+			path = TextRecongnition;
+			sourceTree = "<group>";
+		};
 		C99C4E37235C080000E3D0FE = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +156,7 @@
 				C9A481C1236A927F002EB9E6 /* Mattes */,
 				C97B84C523606C6700BC3E0F /* VisionKit */,
 				C9F5208E2367E7D70077CB87 /* CoreNFC */,
+				C99B83B0236C263C009405F5 /* TextRecongnition */,
 				C99C4E4C235C080100E3D0FE /* Assets.xcassets */,
 				C99C4E4E235C080100E3D0FE /* LaunchScreen.storyboard */,
 				C99C4E51235C080200E3D0FE /* Info.plist */,
@@ -254,6 +269,8 @@
 				C9A481CD236AD36E002EB9E6 /* CGImageSource+Extension.swift */,
 				C9A481CF236AD398002EB9E6 /* DepthData+Extension.swift */,
 				C9A481D1236AD408002EB9E6 /* PHAsset+Extension.swift */,
+				C99B83B3236C2B6C009405F5 /* BoundingBoxImageView.swift */,
+				C99B83B5236C2BAD009405F5 /* UIImageView+Extension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -408,6 +425,8 @@
 				C9A481A423697109002EB9E6 /* FeliCaTag.swift in Sources */,
 				C99B83AF236C256F009405F5 /* MattesViewController.swift in Sources */,
 				C9A481AA2369765F002EB9E6 /* Error+Extension.swift in Sources */,
+				C99B83B6236C2BAD009405F5 /* UIImageView+Extension.swift in Sources */,
+				C99B83B2236C2656009405F5 /* TextRecongnitionViewController.swift in Sources */,
 				C9A481A223696E03002EB9E6 /* Tag.swift in Sources */,
 				C9A481CE236AD36E002EB9E6 /* CGImageSource+Extension.swift in Sources */,
 				C9A481AE23699527002EB9E6 /* Edy.swift in Sources */,
@@ -416,6 +435,7 @@
 				C9A481BA23699A58002EB9E6 /* Nanaco.swift in Sources */,
 				C9A481D2236AD408002EB9E6 /* PHAsset+Extension.swift in Sources */,
 				C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */,
+				C99B83B4236C2B6C009405F5 /* BoundingBoxImageView.swift in Sources */,
 				C9A481C6236AA28E002EB9E6 /* ImageService.swift in Sources */,
 				C9A481B823699A1F002EB9E6 /* Waon+History.swift in Sources */,
 				C9A481C023699B9D002EB9E6 /* ReaderConfiguration.swift in Sources */,
