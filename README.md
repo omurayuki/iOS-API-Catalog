@@ -1,23 +1,32 @@
 # iOS13_APIs
 
-### _※iOS13(定期更新中)_
+### _※iOS13(定期更新中)_  
 
-## 文字認識
+※基本的な動作確認方法など
 
-> 概要 
-
-> 技術資料:  
-
-> ライブラリ:  
-
-## ドキュメントスキャン
+## 文字認識(Text Recognition)
 
 > 概要 
 
 > 技術資料:  
 
 > ライブラリ:  
-> https://github.com/WeTransfer/WeScan
+
+## VisionKit
+> 概要:  
+・iOS13からNotesアプリに搭載されるOCRの機能を提供(文字認識)  
+・ドキュメントスキャン  
+・ドキュメント編集  
+
+> 技術資料:  
+[VisionKitBasics](https://qiita.com/kokoheia/items/1e5a7980d7a46cacb209)  
+[Scanning documents with Vision and VisionKit on iOS 13](https://schiavo.me/2019/scanning-documents/)  
+
+> サンプルコード:  
+[VisionKit-Example](https://github.com/gbmksquare/VisionKit-Example)  
+
+> ライブラリ:  
+> [WeScan](https://github.com/WeTransfer/WeScan)
 
 ## BackgroundTask
 
@@ -61,8 +70,6 @@
 > 技術資料:  
 [iOS 12のPortrait Matteがすごい／ #iOSDC 2018で登壇します](http://shu223.hatenablog.com/entry/2018/08/22/200226)  
 
-> ライブラリ:  
-
 ## Semantic Segmentation Matte
 
 > 概要:  
@@ -75,8 +82,6 @@
 [Multi-cam support in iOS 13 allows simultaneous video, photo, and audio capture](https://9to5mac.com/2019/06/07/multi-cam-support-ios13/)  
 [セマンティック・セグメンテーションの基礎](https://jp.mathworks.com/content/dam/mathworks/mathworks-dot-com/company/events/webinar-cta/2459280_Basics_of_semantic_segmentation.pdf)  
 [iOS 13のSemantic Segmentation Matte(有料)](https://note.mu/shu223/n/nf44027919ad4)  
-
-> ライブラリ:  
 
 > 補足:  
 Portrait Effects Matteと同様の方法でImageDataを操作するが、用意されているメソッドでは今の所実装出来なかった(動かなかった)。 
@@ -130,8 +135,3 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 > 技術資料:  
 
 > ライブラリ:  
-
-※各サードパーティ 
-※各UseCase
-※出来る事, 出来ない事
-※基本的な動作確認方法など
