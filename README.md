@@ -53,7 +53,10 @@
 
 > 技術資料:  
 > [iPhoneでFeliCaを読み取ってみた](https://speakerdeck.com/tattn/iphonedefelicawodu-miqu-tutemita?slide=5)  
-> [iOS13 CoreNFCの使いみちとQRコード、BLEとの比較](https://qiita.com/gpsnmeajp/items/88e61086902a8a9bdaa4)
+> [iOS13 CoreNFCの使いみちとQRコード、BLEとの比較](https://qiita.com/gpsnmeajp/items/88e61086902a8a9bdaa4)  
+
+> サンプルコード:  
+> [vCardCoreNFCWriter](https://github.com/alfianlosari/vCardCoreNFCWriter)
 
 > ライブラリ:  
 > [TRETJapanNFCReader](https://github.com/treastrain/TRETJapanNFCReader)  
@@ -70,6 +73,9 @@
 
 > 技術資料:  
 [iOS 12のPortrait Matteがすごい／ #iOSDC 2018で登壇します](http://shu223.hatenablog.com/entry/2018/08/22/200226)  
+
+> サンプルコード:  
+> [PortraitEffectsMatteSample](https://github.com/kentat01/PortraitEffectsMatteSample/tree/master/PortraitEffectsMatteSample)
 
 ## Semantic Segmentation Matte
 
