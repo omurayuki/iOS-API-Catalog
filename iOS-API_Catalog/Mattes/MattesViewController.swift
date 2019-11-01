@@ -3,7 +3,7 @@ import Foundation
 import UIKit
 import Photos
 
-final class SemanticSegmentationMattesViewController: UIViewController {
+final class MattesViewController: UIViewController {
     
     let imageService = ImagePickerService()
     var cfFileURL: CFURL!

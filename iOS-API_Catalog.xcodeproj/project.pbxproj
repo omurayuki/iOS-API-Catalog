@@ -10,6 +10,7 @@
 		1667439FB29F7B6100B215D0 /* Pods_iOS_API_Catalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4BAD5963DB2732EDA18243 /* Pods_iOS_API_Catalog.framework */; };
 		C97B84C723606CDC00BC3E0F /* DocumentScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B84C623606CDC00BC3E0F /* DocumentScanViewController.swift */; };
 		C97B84C92360766F00BC3E0F /* NSLayout+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B84C82360766F00BC3E0F /* NSLayout+Extension.swift */; };
+		C99B83AF236C256F009405F5 /* MattesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83AE236C256F009405F5 /* MattesViewController.swift */; };
 		C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4E43235C080000E3D0FE /* AppDelegate.swift */; };
 		C99C4E4D235C080100E3D0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4C235C080100E3D0FE /* Assets.xcassets */; };
 		C99C4E50235C080100E3D0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4E235C080100E3D0FE /* LaunchScreen.storyboard */; };
@@ -29,7 +30,6 @@
 		C9A481BC23699A74002EB9E6 /* Nanaco+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BB23699A74002EB9E6 /* Nanaco+History.swift */; };
 		C9A481BE23699B90002EB9E6 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BD23699B90002EB9E6 /* Reader.swift */; };
 		C9A481C023699B9D002EB9E6 /* ReaderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */; };
-		C9A481C3236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481C2236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift */; };
 		C9A481C6236AA28E002EB9E6 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481C5236AA28E002EB9E6 /* ImageService.swift */; };
 		C9A481C9236ACFB5002EB9E6 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */; };
 		C9A481CC236AD30F002EB9E6 /* UIImage+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481CB236AD30F002EB9E6 /* UIImage+Util.swift */; };
@@ -44,6 +44,7 @@
 		BA4BAD5963DB2732EDA18243 /* Pods_iOS_API_Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_API_Catalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97B84C623606CDC00BC3E0F /* DocumentScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScanViewController.swift; sourceTree = "<group>"; };
 		C97B84C82360766F00BC3E0F /* NSLayout+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayout+Extension.swift"; sourceTree = "<group>"; };
+		C99B83AE236C256F009405F5 /* MattesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MattesViewController.swift; sourceTree = "<group>"; };
 		C99C4E40235C080000E3D0FE /* iOS-API_Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-API_Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99C4E43235C080000E3D0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99C4E4C235C080100E3D0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		C9A481BB23699A74002EB9E6 /* Nanaco+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nanaco+History.swift"; sourceTree = "<group>"; };
 		C9A481BD23699B90002EB9E6 /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
 		C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderConfiguration.swift; sourceTree = "<group>"; };
-		C9A481C2236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticSegmentationMattesViewController.swift; sourceTree = "<group>"; };
 		C9A481C5236AA28E002EB9E6 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
 		C9A481CB236AD30F002EB9E6 /* UIImage+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Util.swift"; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 				C99C4E43235C080000E3D0FE /* AppDelegate.swift */,
 				C9A481C7236ACFA5002EB9E6 /* Resource */,
 				C9A481C4236AA27D002EB9E6 /* Util */,
-				C9A481C1236A927F002EB9E6 /* SemanticSegmentationMattes */,
+				C9A481C1236A927F002EB9E6 /* Mattes */,
 				C97B84C523606C6700BC3E0F /* VisionKit */,
 				C9F5208E2367E7D70077CB87 /* CoreNFC */,
 				C99C4E4C235C080100E3D0FE /* Assets.xcassets */,
@@ -236,12 +236,12 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		C9A481C1236A927F002EB9E6 /* SemanticSegmentationMattes */ = {
+		C9A481C1236A927F002EB9E6 /* Mattes */ = {
 			isa = PBXGroup;
 			children = (
-				C9A481C2236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift */,
+				C99B83AE236C256F009405F5 /* MattesViewController.swift */,
 			);
-			path = SemanticSegmentationMattes;
+			path = Mattes;
 			sourceTree = "<group>";
 		};
 		C9A481C4236AA27D002EB9E6 /* Util */ = {
@@ -406,13 +406,13 @@
 				C9A481B623699A04002EB9E6 /* Waon.swift in Sources */,
 				C9A481CC236AD30F002EB9E6 /* UIImage+Util.swift in Sources */,
 				C9A481A423697109002EB9E6 /* FeliCaTag.swift in Sources */,
+				C99B83AF236C256F009405F5 /* MattesViewController.swift in Sources */,
 				C9A481AA2369765F002EB9E6 /* Error+Extension.swift in Sources */,
 				C9A481A223696E03002EB9E6 /* Tag.swift in Sources */,
 				C9A481CE236AD36E002EB9E6 /* CGImageSource+Extension.swift in Sources */,
 				C9A481AE23699527002EB9E6 /* Edy.swift in Sources */,
 				C97B84C92360766F00BC3E0F /* NSLayout+Extension.swift in Sources */,
 				C9A481A623697144002EB9E6 /* FeliCaService.swift in Sources */,
-				C9A481C3236A9296002EB9E6 /* SemanticSegmentationMattesViewController.swift in Sources */,
 				C9A481BA23699A58002EB9E6 /* Nanaco.swift in Sources */,
 				C9A481D2236AD408002EB9E6 /* PHAsset+Extension.swift in Sources */,
 				C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */,
