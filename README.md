@@ -84,6 +84,8 @@ GIFはAUTO*480 EZGIFサイト
 
 ## Semantic Segmentation Matte
 
+![wwdc_image](https://user-images.githubusercontent.com/46431586/68005658-4fd4b480-fcb9-11e9-800b-c6d109cf0387.jpg)
+
 > 概要:  
 ・人物の"髪", "肌", "歯"をセグメンテーションする  
 >  
