@@ -17,7 +17,7 @@ GIFはAUTO*480 EZGIFサイト
 >※英数字の識別しか現状できない
 
 > 技術資料:  
-[How to use VNRecognizeTextRequest’s optical character recognition to detect text in an image](https://www.hackingwithswift.com/example-code/vision/how-to-use-vnrecognizetextrequests-optical-character-recognition-to-detect-text-in-an-image)
+[How to use VNRecognizeTextRequest’s optical character recognition to detect text in an image](https://www.hackingwithswift.com/example-code/vision/how-to-use-vnrecognizetextrequests-optical-character-recognition-to-detect-text-in-an-image)  
 [Text recognition on iOS 13 with Vision, SwiftUI and Combine](https://martinmitrevski.com/2019/06/16/text-recognition-on-ios-13-with-vision-swiftui-and-combine/)
 
 > サンプルコード:  
