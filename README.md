@@ -21,7 +21,9 @@ GIFはAUTO*480 EZGIFサイト
 [Text recognition on iOS 13 with Vision, SwiftUI and Combine](https://martinmitrevski.com/2019/06/16/text-recognition-on-ios-13-with-vision-swiftui-and-combine/)
 
 > サンプルコード:  
-[ScanningDocuments](https://github.com/julianschiavo/blog-example-code/tree/master/2019-06-15-ScanningDocuments)
+[ScanningDocuments](https://github.com/julianschiavo/blog-example-code/tree/master/2019-06-15-ScanningDocuments)  
+
+> Apple Document:  
 
 ## VisionKit
 
@@ -40,7 +42,11 @@ GIFはAUTO*480 EZGIFサイト
 [VisionKit-Example](https://github.com/gbmksquare/VisionKit-Example)  
 
 > ライブラリ:  
-> [WeScan](https://github.com/WeTransfer/WeScan) 
+> [WeScan](https://github.com/WeTransfer/WeScan)  
+
+> Apple Document:  
+https://developer.apple.com/documentation/visionkit  
+https://developer.apple.com/documentation/visionkit/vndocumentcameraviewcontrollerdelegate
 
 ## Core NFC
 
@@ -67,6 +73,9 @@ GIFはAUTO*480 EZGIFサイト
 > ライブラリ:  
 > [TRETJapanNFCReader](https://github.com/treastrain/TRETJapanNFCReader)  
 
+> Apple Document:  
+https://developer.apple.com/documentation/corenfc
+
 ## Portrait Effects Matte
 
 > 概要:  
@@ -83,6 +92,9 @@ GIFはAUTO*480 EZGIFサイト
 > サンプルコード:  
 > [PortraitEffectsMatteSample](https://github.com/kentat01/PortraitEffectsMatteSample/tree/master/PortraitEffectsMatteSample)
 
+> Apple Document:  
+https://developer.apple.com/documentation/avfoundation/avportraiteffectsmatte
+
 ## Semantic Segmentation Matte
 
 <img width="450" src="https://user-images.githubusercontent.com/46431586/68005658-4fd4b480-fcb9-11e9-800b-c6d109cf0387.jpg" />
@@ -98,6 +110,9 @@ GIFはAUTO*480 EZGIFサイト
 [セマンティック・セグメンテーションの基礎](https://jp.mathworks.com/content/dam/mathworks/mathworks-dot-com/company/events/webinar-cta/2459280_Basics_of_semantic_segmentation.pdf)  
 [iOS 13のSemantic Segmentation Matte(有料)](https://note.mu/shu223/n/nf44027919ad4)  
 
+> Apple Document:  
+https://developer.apple.com/documentation/avfoundation/avsemanticsegmentationmatte?language=objc
+
 > 補足:  
 Portrait Effects Matteと同様の方法でImageDataを操作するが、用意されているメソッドでは今の所実装出来なかった(動かなかった)。 
 Semantic Segmentation Matteの実装資料も見当たらない。 
@@ -107,11 +122,14 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 <img width="450" src="https://user-images.githubusercontent.com/46431586/68066465-ef5a7b80-fd7b-11e9-8fad-812ae63b4af5.jpg" />
 
 > 概要:  
-・デバイスの振動制御が可能
+・デバイスの振動制御が可能  
 ・細かな振動制御まで可能
 
 > 技術資料:  
 [iOS13で公開予定の「Core Haptics」を使って、Haptic Feedback (触覚フィードバック) するコードを書いてみた](https://tech.showroom.co.jp/entry/2019/07/10/191930)  
+
+> Apple Document:  
+https://developer.apple.com/documentation/corehaptics
 
 ## Indoor Maps
 
@@ -121,6 +139,8 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 > ライブラリ:  
 
+> Apple Document:  
+
 ## Create ML
 
 > 概要 
@@ -128,6 +148,8 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 > 技術資料:  
 
 > ライブラリ:  
+
+> Apple Document:  
 
 ## Sound Analysis
 
@@ -137,6 +159,8 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 > ライブラリ:  
 
+> Apple Document:  
+
 ## デプス推定
 
 > 概要 
@@ -145,6 +169,8 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 
 > ライブラリ:  
 
+> Apple Document:  
+
 ## 物体のセグメント
 
 > 概要 
@@ -152,3 +178,5 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 > 技術資料:  
 
 > ライブラリ:  
+
+> Apple Document:  
