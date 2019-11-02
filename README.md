@@ -40,15 +40,7 @@ GIFはAUTO*480 EZGIFサイト
 [VisionKit-Example](https://github.com/gbmksquare/VisionKit-Example)  
 
 > ライブラリ:  
-> [WeScan](https://github.com/WeTransfer/WeScan)
-
-## BackgroundTask
-
-> 概要 
-
-> 技術資料:  
-
-> ライブラリ:  
+> [WeScan](https://github.com/WeTransfer/WeScan) 
 
 ## Core NFC
 
