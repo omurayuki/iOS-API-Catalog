@@ -24,6 +24,7 @@ GIFはAUTO*480 EZGIFサイト
 [ScanningDocuments](https://github.com/julianschiavo/blog-example-code/tree/master/2019-06-15-ScanningDocuments)  
 
 > Apple Document:  
+https://developer.apple.com/documentation/vision
 
 ## VisionKit
 
