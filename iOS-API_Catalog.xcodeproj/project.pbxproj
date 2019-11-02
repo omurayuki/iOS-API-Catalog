@@ -14,6 +14,7 @@
 		C99B83B2236C2656009405F5 /* TextRecongnitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83B1236C2656009405F5 /* TextRecongnitionViewController.swift */; };
 		C99B83B4236C2B6C009405F5 /* BoundingBoxImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83B3236C2B6C009405F5 /* BoundingBoxImageView.swift */; };
 		C99B83B6236C2BAD009405F5 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83B5236C2BAD009405F5 /* UIImageView+Extension.swift */; };
+		C99B83BD236C641B009405F5 /* HapticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99B83BC236C641B009405F5 /* HapticViewController.swift */; };
 		C99C4E44235C080000E3D0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4E43235C080000E3D0FE /* AppDelegate.swift */; };
 		C99C4E4D235C080100E3D0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4C235C080100E3D0FE /* Assets.xcassets */; };
 		C99C4E50235C080100E3D0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4E4E235C080100E3D0FE /* LaunchScreen.storyboard */; };
@@ -51,6 +52,7 @@
 		C99B83B1236C2656009405F5 /* TextRecongnitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecongnitionViewController.swift; sourceTree = "<group>"; };
 		C99B83B3236C2B6C009405F5 /* BoundingBoxImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBoxImageView.swift; sourceTree = "<group>"; };
 		C99B83B5236C2BAD009405F5 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		C99B83BC236C641B009405F5 /* HapticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticViewController.swift; sourceTree = "<group>"; };
 		C99C4E40235C080000E3D0FE /* iOS-API_Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-API_Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99C4E43235C080000E3D0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C99C4E4C235C080100E3D0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 			path = TextRecongnition;
 			sourceTree = "<group>";
 		};
+		C99B83BB236C640C009405F5 /* Haptic */ = {
+			isa = PBXGroup;
+			children = (
+				C99B83BC236C641B009405F5 /* HapticViewController.swift */,
+			);
+			path = Haptic;
+			sourceTree = "<group>";
+		};
 		C99C4E37235C080000E3D0FE = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +167,7 @@
 				C97B84C523606C6700BC3E0F /* VisionKit */,
 				C9F5208E2367E7D70077CB87 /* CoreNFC */,
 				C99B83B0236C263C009405F5 /* TextRecongnition */,
+				C99B83BB236C640C009405F5 /* Haptic */,
 				C99C4E4C235C080100E3D0FE /* Assets.xcassets */,
 				C99C4E4E235C080100E3D0FE /* LaunchScreen.storyboard */,
 				C99C4E51235C080200E3D0FE /* Info.plist */,
@@ -416,6 +427,7 @@
 				C97B84C723606CDC00BC3E0F /* DocumentScanViewController.swift in Sources */,
 				C9A481AC236994A6002EB9E6 /* FeliCa.swift in Sources */,
 				C9A481A82369719F002EB9E6 /* Block.swift in Sources */,
+				C99B83BD236C641B009405F5 /* HapticViewController.swift in Sources */,
 				C9A481BE23699B90002EB9E6 /* Reader.swift in Sources */,
 				C9A481B22369989D002EB9E6 /* Suica.swift in Sources */,
 				C9A481B023699535002EB9E6 /* Edy+History.swift in Sources */,
