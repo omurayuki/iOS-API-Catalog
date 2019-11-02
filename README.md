@@ -104,12 +104,14 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 またApple公式でもSemantic Segmentation Matteの実装について言及している資料が見当たらない。
 
 ## Core Haptic
+<img width="450" src="https://user-images.githubusercontent.com/46431586/68066465-ef5a7b80-fd7b-11e9-8fad-812ae63b4af5.jpg" />
 
-> 概要 
+> 概要:  
+・デバイスの振動制御が可能
+・細かな振動制御まで可能
 
 > 技術資料:  
-
-> ライブラリ:  
+[iOS13で公開予定の「Core Haptics」を使って、Haptic Feedback (触覚フィードバック) するコードを書いてみた](https://tech.showroom.co.jp/entry/2019/07/10/191930)  
 
 ## Indoor Maps
 
