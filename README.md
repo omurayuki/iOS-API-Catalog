@@ -141,7 +141,7 @@ https://developer.apple.com/documentation/corehaptics
 ・iOS11以上であればどのデバイスでも測定可能  
 ・静止画でも動画でも測定可能  
 ・人間以外のオブジェクトも識別可能
-・Depth測定以外(セグメンテーション)なども可能
+・Depth測定以外(セグメンテーション)なども可能  
 ・Portrait Effects MatteやSemantic Segmentation Matteなど、iOS13以降の標準APIよりかは精度は荒い印象(学習モデルが強化されたら今後の期待大)
 
 > 技術資料:  
