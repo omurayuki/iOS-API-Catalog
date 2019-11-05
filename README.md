@@ -134,7 +134,7 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 > Apple Document:  
 https://developer.apple.com/documentation/corehaptics
 
-## デプス推定(Apple提供機械学習モデル使用)
+## デプス推定(Apple提供CoreML)
 ![today](https://user-images.githubusercontent.com/39009922/68222674-b85fc080-002e-11ea-99f8-551d11973736.gif)
 
 > 概要:  
