@@ -2,9 +2,9 @@
 
 ### _※iOS13(定期更新中)_  
 
-※基本的な動作確認方法など
-
-GIFはAUTO*480 EZGIFサイト
+### Compatibility
+Xcode11.1  
+Swift5
 
 ## Vision(Text Recognition)
 
