@@ -35,11 +35,11 @@
 		C9A481BE23699B90002EB9E6 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BD23699B90002EB9E6 /* Reader.swift */; };
 		C9A481C023699B9D002EB9E6 /* ReaderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */; };
 		C9A481C6236AA28E002EB9E6 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481C5236AA28E002EB9E6 /* ImageService.swift */; };
-		C9A481C9236ACFB5002EB9E6 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */; };
 		C9A481CC236AD30F002EB9E6 /* UIImage+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481CB236AD30F002EB9E6 /* UIImage+Util.swift */; };
 		C9A481CE236AD36E002EB9E6 /* CGImageSource+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481CD236AD36E002EB9E6 /* CGImageSource+Extension.swift */; };
 		C9A481D0236AD398002EB9E6 /* DepthData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481CF236AD398002EB9E6 /* DepthData+Extension.swift */; };
 		C9A481D2236AD408002EB9E6 /* PHAsset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A481D1236AD408002EB9E6 /* PHAsset+Extension.swift */; };
+		C9CB979B2371B88B009DF381 /* image-with-depth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9CB979A2371B88A009DF381 /* image-with-depth.jpg */; };
 		C9F520912367EE4D0077CB87 /* CoreNFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F520902367EE4D0077CB87 /* CoreNFCViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,11 +75,11 @@
 		C9A481BD23699B90002EB9E6 /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
 		C9A481BF23699B9D002EB9E6 /* ReaderConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderConfiguration.swift; sourceTree = "<group>"; };
 		C9A481C5236AA28E002EB9E6 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
-		C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
 		C9A481CB236AD30F002EB9E6 /* UIImage+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Util.swift"; sourceTree = "<group>"; };
 		C9A481CD236AD36E002EB9E6 /* CGImageSource+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImageSource+Extension.swift"; sourceTree = "<group>"; };
 		C9A481CF236AD398002EB9E6 /* DepthData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DepthData+Extension.swift"; sourceTree = "<group>"; };
 		C9A481D1236AD408002EB9E6 /* PHAsset+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHAsset+Extension.swift"; sourceTree = "<group>"; };
+		C9CB979A2371B88A009DF381 /* image-with-depth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-with-depth.jpg"; sourceTree = "<group>"; };
 		C9F5208F2367ED560077CB87 /* iOS-API_Catalog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-API_Catalog.entitlements"; sourceTree = "<group>"; };
 		C9F520902367EE4D0077CB87 /* CoreNFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCViewController.swift; sourceTree = "<group>"; };
 		F75A93AEFFEB62185445F908 /* Pods-iOS-API_Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-API_Catalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-API_Catalog/Pods-iOS-API_Catalog.debug.xcconfig"; sourceTree = "<group>"; };
@@ -289,7 +289,7 @@
 		C9A481C7236ACFA5002EB9E6 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				C9A481C8236ACFB5002EB9E6 /* image-with-depth.jpg */,
+				C9CB979A2371B88A009DF381 /* image-with-depth.jpg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -364,7 +364,7 @@
 			files = (
 				C99C4E50235C080100E3D0FE /* LaunchScreen.storyboard in Resources */,
 				C99C4E4D235C080100E3D0FE /* Assets.xcassets in Resources */,
-				C9A481C9236ACFB5002EB9E6 /* image-with-depth.jpg in Resources */,
+				C9CB979B2371B88B009DF381 /* image-with-depth.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
