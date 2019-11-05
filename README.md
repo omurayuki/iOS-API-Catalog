@@ -132,52 +132,16 @@ Semantic Segmentation Matteの実装資料も見当たらない。
 > Apple Document:  
 https://developer.apple.com/documentation/corehaptics
 
-## Indoor Maps
+## デプス推定(Apple提供機械学習モデル使用)
+![today](https://user-images.githubusercontent.com/39009922/68222674-b85fc080-002e-11ea-99f8-551d11973736.gif)
 
-> 概要 
-
-> 技術資料:  
-
-> ライブラリ:  
-
-> Apple Document:  
-
-## Create ML
-
-> 概要 
+> 概要:  
+・iOS11以上であればどのデバイスでも測定可能
+・静止画でも動画でも測定可能
+・Portrait Effects MatteやSemantic Segmentation Matteなど、iOS13以降の標準APIよりかは精度は荒い印象(学習モデルが強化されたら今後の期待大)
 
 > 技術資料:  
-
-> ライブラリ:  
-
-> Apple Document:  
-
-## Sound Analysis
-
-> 概要 
-
-> 技術資料:  
-
-> ライブラリ:  
+[DepthPrediction-CoreML](https://github.com/tucan9389/DepthPrediction-CoreML/tree/master/DepthPrediction-CoreML)
 
 > Apple Document:  
-
-## デプス推定
-
-> 概要 
-
-> 技術資料:  
-
-> ライブラリ:  
-
-> Apple Document:  
-
-## 物体のセグメント
-
-> 概要 
-
-> 技術資料:  
-
-> ライブラリ:  
-
-> Apple Document:  
+https://developer.apple.com/jp/machine-learning/models/
