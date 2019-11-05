@@ -50,6 +50,7 @@ https://developer.apple.com/documentation/visionkit
 https://developer.apple.com/documentation/visionkit/vndocumentcameraviewcontrollerdelegate
 
 ## Core NFC
+![coreNFC](https://user-images.githubusercontent.com/39009922/68223032-60758980-002f-11ea-8fb2-559f9c451b69.gif)
 
 > 概要:  
 > ・NFCタグ直接読み取り/書き込み(システムコード指定、暗号化通信可)  
@@ -78,6 +79,7 @@ https://developer.apple.com/documentation/visionkit/vndocumentcameraviewcontroll
 https://developer.apple.com/documentation/corenfc
 
 ## Portrait Effects Matte
+<img width="450" src="https://user-images.githubusercontent.com/39009922/68223058-6c614b80-002f-11ea-8e2e-0600ab35794b.png" />
 
 > 概要:  
 ・人物の矩形を背景から切り抜き  
